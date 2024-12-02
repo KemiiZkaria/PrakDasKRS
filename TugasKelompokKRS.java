@@ -28,6 +28,6 @@ public class TugasKelompokKRS {
                 default:
                     System.out.println("Pilihan tidak valid. Coba lagi.");
             }
-        } while (pilihan != 5);
+        } while (pilihan != 4);
     }
 }
