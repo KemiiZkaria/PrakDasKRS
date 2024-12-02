@@ -20,7 +20,7 @@ public class TugasKelompokKRS {
                     
                     break;
                 case 3:
-                    analisisKRS();
+                    analisisKRS(dataKRS);
                     break;
                 case 4:
                     System.out.println("Keluar dari program.");
@@ -46,7 +46,7 @@ public class TugasKelompokKRS {
 
         int kurang20 = 0;
         for (int i = 0; i < dataKRS.length; i++){
-            int a = (int) dataKRS [i][5];
+            int a = (int) dataKRS [i][4];
             if (a < 20){
                 kurang20++;
             };
