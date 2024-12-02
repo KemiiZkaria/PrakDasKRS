@@ -44,10 +44,10 @@ public class TugasKelompokKRS {
         // }
 
 
+        int kurang20 = 0;
         for (int i = 0; i < dataKRS.length; i++){
             int a = (int) dataKRS [i][5];
             if (a < 20){
-                int kurang20 = 0;
                 kurang20++;
             };
         }
