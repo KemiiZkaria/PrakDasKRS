@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class TugasKelompokKRS {
 
     public static void main(String[] args) {
@@ -30,7 +31,7 @@ public class TugasKelompokKRS {
             }
         } while (pilihan != 4);
     }
-    
+
     static void analisisKRS(dataKRS[]) {
         // for (int i = 0; i < array.length; i++) {
         //     int data = 0;
@@ -56,4 +57,3 @@ public class TugasKelompokKRS {
         System.out.println("Jumlah mahasiswa yang mengambil sks dibawah 20: " + kurang20);
     }
 }
-
