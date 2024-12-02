@@ -20,7 +20,7 @@ public class TugasKelompokKRS {
                     
                     break;
                 case 3:
-                    
+                    analisisKRS();
                     break;
                 case 4:
                     System.out.println("Keluar dari program.");
@@ -30,4 +30,20 @@ public class TugasKelompokKRS {
             }
         } while (pilihan != 4);
     }
+    
+    static void analisisKRS(array[]) {
+        for (int i = 0; i < array.length; i++) {
+            int data = 0;
+            for (int j = 0; j < array[i].length; j++) {
+                data += array[i][j] ;
+            }
+            if (data < 20) {
+                int kurang20 = 0;
+                kurang20++;
+            }
+        }
+        System.out.println("------------ Analisis data KRS -------------");
+        System.out.println("Jumlah mahasiswa yang mengambil sks dibawah 20: " + kurang20);
+    }
 }
+
